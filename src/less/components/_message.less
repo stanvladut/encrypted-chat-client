@@ -1,0 +1,67 @@
+.message {
+  position: relative;
+  margin-bottom: 10px;
+
+  &-list {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding-right: 20px;
+  }
+
+  .message-author {
+    display: inline-block;
+    color: lightpink;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .message-content {
+    background-color: lightpink;
+    padding: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &.true {
+    padding-top: 17px;
+
+    .message-content {
+      background-color: lightgreen;
+    }
+
+    .message-author {
+      color: lightgreen;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .lock {
+      &.encrypted {
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+
+  .lock {
+    &.encrypted {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 16px;
+      height: 16px;
+      background-image: url('/images/lock.png');
+      background-size: 16px;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+    }
+
+    &.decrypted {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.page > div {
+  vertical-align: top;
+  min-height: 400px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcG9uZW50cy9fcGFnZS5jc3MiLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJjb21wb25lbnRzL19wYWdlLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIucGFnZSA+IGRpdiB7XG4gIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gIG1pbi1oZWlnaHQ6IDQwMHB4O1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG59XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

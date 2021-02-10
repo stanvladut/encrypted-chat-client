@@ -1,0 +1,24 @@
+.login {
+  text-align: center;
+  margin-top: 50px;
+}
+.login-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.login input {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+}
+.login button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcG9uZW50cy9fc3R5bGUuY3NzIiwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZXMiOlsiY29tcG9uZW50cy9fc3R5bGUuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi5sb2dpbiB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLXRvcDogNTBweDtcbn1cbi5sb2dpbi10aXRsZSB7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbn1cbi5sb2dpbiBpbnB1dCB7XG4gIHdpZHRoOiAyMDBweDtcbiAgaGVpZ2h0OiAzMHB4O1xuICBmb250LXNpemU6IDE2cHg7XG59XG4ubG9naW4gYnV0dG9uIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbjogYXV0bztcbiAgbWFyZ2luLXRvcDogMTBweDtcbiAgd2lkdGg6IDIwMHB4O1xuICBwYWRkaW5nLXRvcDogMTBweDtcbiAgcGFkZGluZy1ib3R0b206IDEwcHg7XG59XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

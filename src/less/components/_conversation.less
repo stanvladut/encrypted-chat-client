@@ -1,0 +1,40 @@
+.conversation {
+  width: 390px;
+  padding: 50px;
+
+  form {
+    .editor-message {
+      width: 100%;
+      margin: 10px 0 10px 0;
+      resize: none;
+    }
+
+    .editor-file {
+      &::-webkit-file-upload-button {
+        background-color: forestgreen;
+        border: 1px solid forestgreen;
+        border-radius: 3px;
+        color: white;
+        padding: 5px 10px;
+        cursor: pointer;
+
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+
+        &:hover {
+          background-color: white;
+          color: forestgreen;
+
+          -webkit-transition: 0.4s;
+          -moz-transition: 0.4s;
+          -ms-transition: 0.4s;
+          -o-transition: 0.4s;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}

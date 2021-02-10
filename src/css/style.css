@@ -1,0 +1,74 @@
+/* Users */
+
+.usersList img.avatarDefault {
+    width: 75px;
+    height: 75px;
+}
+
+/* Conversation */
+
+#tsmStateIndicator {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.chatActButton {
+    float: left;
+}
+
+.chatActButton_CloseSession {
+    display: none;
+}
+
+.convActBar {
+    margin: 5px 0 5px 0;
+}
+
+.convInfoPanel {
+    height: 200px;
+}
+
+#chatMessageArea {
+    overflow: scroll;
+}
+
+#chat_form {}
+#chat_form button.sendChatMessage {
+    float: right;
+}
+
+/* Settings */
+
+#TSMActOptionButton:hover {
+    cursor: pointer;
+}
+
+#setupTSMAlert {
+    display: none;
+    font-weight: bold;
+}
+
+.errorAlert {
+    color: #cc0000;
+}
+.successAlert {
+    color: #008000;
+}
+
+.refreshBtn {
+    float: right;
+    cursor: pointer;
+}
+
+.notifMsgRow {
+    font-size: 0.9em;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 2px;
+}
+
+.notifMsgRow .responseArea span {
+    cursor: pointer;
+    float:  right;
+    margin: 2px 2px 2px 0;
+    padding: 4px;
+}
